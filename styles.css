@@ -39,11 +39,16 @@ section ul ul {
   align-items: flex-start;
 }
 
+.icon-wrapper a {
+  padding: 15px;
+}
+
 .icon-wrapper a:hover {
   border: 5px solid orange;
   border-radius: 5px;
+  padding: 10px 10px 0px 10px;
 }
 
 .icon-wrapper p {
-  padding: 0px 10px;
+  padding: 0px 10px 10px 0px;
 }
