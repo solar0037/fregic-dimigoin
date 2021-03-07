@@ -5,33 +5,6 @@
     font-style: normal;
 }
 
-@keyframes rainbowEffect {
-  0% {
-    color: red;
-  }
-  14% {
-    color: orange;
-  }
-  28% {
-    color: gold;
-  }
-  42% {
-    color: lightgreen;
-  }
-  56% {
-    color: green;
-  }
-  70% {
-    color: skyblue;
-  }
-  84% {
-    color: blue;
-  }
-  100% {
-    color: purple;
-  }
-}
-
 body {
   padding: 2px;
 }
@@ -45,11 +18,7 @@ section {
 }
 
 section:hover {
-  animation-name: rainbowEffect;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  /* color: orange; */
+  color: orange;
 }
 
 section h1 {
