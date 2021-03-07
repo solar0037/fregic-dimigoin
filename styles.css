@@ -33,3 +33,17 @@ section h3 {
 section ul ul {
   padding-left: 25px;
 }
+
+.icon-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.icon-wrapper a:hover {
+  border: 5px solid orange;
+  border-radius: 5px;
+}
+
+.icon-wrapper p {
+  padding: 0px 10px;
+}
