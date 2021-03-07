@@ -11,7 +11,7 @@
 }
 
 @keyframes animated-cursor{
-  from {border-right-color: rgba(0,255,0,.75);}
+  from {border-right-color: gray;}
   to {border-right-color: transparent;}
 }
 
@@ -26,7 +26,7 @@ section {
 }
 
 section:hover {
-  color: orange;
+  color: #9dc165;
 }
 
 section h1 {
@@ -48,6 +48,20 @@ section:first-child h1 {
   overflow: hidden;    
   animation: animated-text 3s steps(29,end) 1s 1 normal both,
              animated-cursor 600ms steps(29,end) infinite;
+}
+
+section:nth-child(4),
+section:nth-child(9) {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+section:nth-child(5),
+section:nth-child(10) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .embed-container {
