@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes rainbowEffect {
+  0% {
+    color: red;
+  }
+  14% {
+    color: orange;
+  }
+  28% {
+    color: gold;
+  }
+  42% {
+    color: lightgreen;
+  }
+  56% {
+    color: green;
+  }
+  70% {
+    color: skyblue;
+  }
+  84% {
+    color: blue;
+  }
+  100% {
+    color: purple;
+  }
+}
+
+body {
+  padding: 2px;
+}
+
+section {
+  border-radius: 10px;
+  background-color: rgb(245, 245, 245);
+  margin: 10px 0px;
+  padding: 15px 20px;
+  font-family: 'HangeulNuri-Bold';
+}
+
+section:hover {
+  animation-name: rainbowEffect;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  /* color: orange; */
+}
+
+section h1 {
+  font-weight: bolder;
+}
+
+section h3 {
+  font-weight: bold;
+  display: inline;
+}
+
+section ul ul {
+  padding-left: 25px;
+}
