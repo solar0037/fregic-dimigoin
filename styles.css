@@ -5,16 +5,6 @@
     font-style: normal;
 }
 
-@keyframes animated-text{
-  from {width: 0;}
-  to {width: 540px;}
-}
-
-@keyframes animated-cursor{
-  from {border-right-color: gray;}
-  to {border-right-color: transparent;}
-}
-
 body {
   padding: 2px;
 }
@@ -40,14 +30,6 @@ section h3 {
 
 section ul ul {
   padding-left: 25px;
-}
-
-section:first-child h1 {
-  border-right: solid 3px rgba(0,255,0,.75);
-  white-space: nowrap;
-  overflow: hidden;    
-  animation: animated-text 3s steps(29,end) 1s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
 }
 
 section:nth-child(4),
